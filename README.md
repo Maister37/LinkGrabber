@@ -7,7 +7,7 @@
 * [Risks](#risks)
 
 ## General info
-This script takes in a file named "keywords.txt" located in the same directory as the script itself, and returns two .csv files:
+This script takes in a file named "keywords.txt" located in the same directory as the script itself, and returns two .csv files in the same directory:
 - First one named "links.csv" containing first 10 links of google search results for each word located in "keywords.txt".
 - Second one named "results.csv" containing all the words from "keywords.txt" associated with the number of google results they yield.
 
@@ -22,6 +22,9 @@ Script is created with:
 	
 ## Setup
 To run this script place it in the same folder as "keywords.txt"
+```console
+python LinkGrabber.py
+```
 
 ## Functions
 ### grab_links(site, word):
